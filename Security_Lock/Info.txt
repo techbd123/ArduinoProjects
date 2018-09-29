@@ -1,0 +1,7 @@
+Initailly the will be no password. The display will prompt "Set New Pasword".
+
+When a password of the length of 4 at least is set, the display will show "Locked!". If the length of the password is less than 4, the password cannot be set and the display will show "Short Password!" and after a small delay it will also show "Length >=4". 
+
+When the password is set, for a wrong instance of password the display will show "Wrong Password!". 
+
+The correct instance of password will unlock the locker and the display will show "Unlocked!" and then show the initial prompt "Set New Pasword" again. At this time if the button 'A' is pressed, the old password will be set and the display will show "Locked! OLD PSWD".
